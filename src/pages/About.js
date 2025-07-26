@@ -17,7 +17,7 @@ function About() {
             <div className="left">
               <h1 className="title">My Portafolio</h1>
               <div className="image">
-                <img src="/user.png" alt="Profile" />
+                <img src="./user.png" alt="Profile" />
               </div>
             </div>
             <div className="right">

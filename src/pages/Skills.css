@@ -61,3 +61,26 @@ body{
   margin-bottom: 8px;
   font-size: 2vh;
 }
+
+
+@media screen and (min-width: 320px) and (max-width: 695px){
+
+.head{
+  width: 100vw;
+  height: 40px;
+  border-radius: 5%;
+  background-color: #0A192F;
+}
+
+.lista{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  width: 40vw;
+  height: 15px;
+}
+
+.lista li{
+  padding: 0 25px 0 0;
+}
+}

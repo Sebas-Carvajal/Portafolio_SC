@@ -4,8 +4,8 @@ import {Link} from 'react-router-dom';
 
 function Projects() {
   return (
-    <div className="head"> 
-      <nav>
+    <div > 
+      <nav className="head">
         <ul className="lista">
           <li><Link to="/" className="nav-link">Main</Link></li>
           <li><Link to="/Skills" className="nav-link">Skill</Link></li>

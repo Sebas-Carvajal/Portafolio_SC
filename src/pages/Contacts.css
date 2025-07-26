@@ -21,8 +21,10 @@ body{
 }
 
 .contact-section {
-  padding: 5vh 10vw;
-  background-color: #0a192f;
+  padding-top: 10px;
+  padding-left: 25%;
+  width: 50vw;
+  height: 80vh;
   color: white;
   text-align: center;
 }
@@ -44,7 +46,7 @@ body{
   background-color: #112240;
   padding: 20px 30px;
   border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  box-shadow: 0 0 10px gray;
   width: 100%;
   max-width: 500px;
 }
@@ -63,4 +65,83 @@ body{
 
 .contact-item a:hover {
   text-decoration: underline;
+}
+
+@media screen and (min-width: 320px) and (max-width: 695px){
+
+.head{
+  width: 100vw;
+  height: 40px;
+  border-radius: 5%;
+  background-color: #0A192F;
+  box-shadow: 5px 5px 10px gray;
+
+}
+
+.lista{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  width: 40vw;
+  height: 15px;
+}
+
+.lista li{
+  padding: 0 25px 0 0;
+}
+
+.contact-section {
+  padding: 2vh 0 0 0;
+  align-items: center;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+.contact-section h1 {
+  font-size: 4vh; 
+  margin:0 0 30px 0;
+  color: #ccd6f6;
+
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 70px;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.contact-item {
+  background-color: #112240;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px gray;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.contact-item h2 {
+  font-size: 2.5vh;
+  color: #b8c2e3;
+  margin-bottom: 10px;
+}
+
+.contact-item a {
+  color: #64ffda;
+  text-decoration: none;
+  font-weight:bold;
+  text-align: center;
+}
+
+
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
 }

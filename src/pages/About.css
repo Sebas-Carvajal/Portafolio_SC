@@ -5,10 +5,11 @@ body{
 
 h1{
   font-family: 'Montserrat', sans-serif;
-  padding: 10px 0 25px 0;
+  padding: 8px 0 0 0;
   font-size: 4vh;
   color: white;
 }
+
 
 h2{
   font-family: 'Inter', sans-serif;
@@ -23,10 +24,14 @@ h2{
   margin: 0;
 }
 
+
 .head{
   width: 100vw;
-  height: auto;
+  height: 40px;
+  border-radius: 5%;
   background-color: #0A192F;
+  box-shadow: 5px 5px 10px gray;
+
 }
 
 .lista{
@@ -103,6 +108,7 @@ h2{
   text-align: center;
 }
 
+
 .About p{
   font-family: 'Times New Roman', Times, serif;
   color: white;
@@ -115,3 +121,123 @@ h2{
 
 
 
+@media screen and (min-width: 320px) and (max-width: 695px){
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  width: 100vw;
+  font-size: 2vh;
+  color: white;
+}
+
+h2{
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5vh;
+  color: #CCD6F6;
+}
+
+.title {
+  font-size: 2rem;
+  color: #b8c2e3;
+  font-style: oblique;
+  margin: 0;
+}
+
+.head{
+  width: 100vw;
+  height: 10vh;
+  background-color: #0A192F;
+}
+
+.lista{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  width: 40vw;
+  height: 25px;
+}
+
+.lista li{
+  padding: 0 25px 0 0;
+}
+
+.presentation {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;  
+  height: 45vh;
+  width: 100vw;
+  padding: 0 5px 2px 5px;
+}
+
+.left {
+  display: flex;
+  flex: 0;
+  padding: 20px 0 20px 5px;
+  align-items: center;     
+  justify-content: start;
+}
+
+
+.right {
+  display: flex;
+  flex: 1;
+  align-items: center;     
+  justify-content: start;
+}
+
+.nav-link,
+.nav-link:visited,
+.nav-link:active,
+.nav-link:hover {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.image img {
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.About{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding: 4.2vh ;
+  text-align: center;
+}
+
+.About h1{
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 30px 0 0;
+  font-size: 3vh;
+  color: white;
+}
+
+.About p{
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  text-align: justify;
+  font-size: 2vh;
+  line-height: 1.2;
+  margin: 0 12vw 0 0;
+  padding: 0 7px 0 0;
+}
+}

@@ -3,8 +3,8 @@ import {Link} from 'react-router-dom';
 
 function Skills() {
   return (
-    <div className="head">
-      <nav>
+    <div >
+      <nav className="head">
         <ul className="lista">
           <li><Link to="/" className="nav-link">Main</Link></li>
           <li><Link to="/About" className="nav-link">About</Link></li>

@@ -73,21 +73,23 @@ h1 {
 }
 
 
-@media screen and (min-width: 400px) and (max-width: 695px) { /*resolucion entre y 650px celular*/
+@media screen and (min-width: 320px) and (max-width: 695px) { /*resolucion entre y 650px celular*/
     
   .box {
-  width: 60vw;
-  height: 40vh;
+  width: 70vw;
+  padding: 2% 2% 2% 2%;
+  height: 30vh;
   box-shadow: 5px 5px 10px gray;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
 }
 
 
-h1 {
+.box h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 4vh;
-  text-align: center;
+  font-size: 3vh;
+  text-align: start;
+  padding: 0 0 5px 10px;
   color: white;
 }
 
