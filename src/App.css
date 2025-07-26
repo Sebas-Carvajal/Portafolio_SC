@@ -1,0 +1,214 @@
+
+body{
+  background-color:#112240;
+}
+h1{
+  color: white;
+}
+h2{
+  color: #CCD6F6;
+}
+p{
+  color: #CCD6F6;
+}
+
+li{
+  color: #CCD6F6;;
+}
+
+a:active{
+  color: #CCD6F6;
+}
+
+header{
+  width: 100vw;
+  height: 50px;
+  border-radius: 5%;
+  background-color: #0A192F;
+}
+
+.lista{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  padding-top: 1%;
+  width: 30vw;
+  height: 10px;
+}
+
+.presentation {
+  display: flex;
+  justify-content: space-between;
+  height: 40vh;
+  width: 100vw;
+  padding: 2px 5px 2px 5px;
+}
+
+.image {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; 
+}
+
+.imageDash{
+  width: 600px;
+  height: 300px;
+}
+
+
+.image img {
+  width: 100%;
+  height: 100%;
+  flex: 2;
+  object-fit: cover;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;     
+  justify-content: start;
+}
+
+
+.right {
+  flex: 1;
+  text-align: left;
+}
+
+.title {
+  font-size: 4rem;
+  color: #b8c2e3;
+  font-style: oblique;
+  margin: 0;
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 695px) { /*resolucion entre y 650px celular*/
+    header{
+  width: 100vw;
+  height: 50px;
+  background-color: #61dafb;
+}
+
+.lista{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  padding-top: 2%;
+  width: 80vw;
+  height: 10px;
+}
+
+.presentation {
+  display: flex;
+  font-size: 10px;
+  justify-content: space-between;
+  height: 20vh;
+  width: 100vw;
+padding: 2px 5px 2px 5px;
+}
+
+.image {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; 
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  flex: 2;
+  object-fit: cover;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;     
+  justify-content: start;
+}
+
+
+.right {
+  flex: 2;
+  text-align: left;
+}
+
+.title {
+  font-size: 1rem;
+  color: blue;
+  font-style: oblique;
+  margin: 0;
+}
+
+.imageDash{
+  width: 400px;
+  height: 200px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

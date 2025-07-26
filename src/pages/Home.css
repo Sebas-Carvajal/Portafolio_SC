@@ -1,0 +1,129 @@
+.Home {
+  display: grid;
+  place-items:center;
+  height: 100vh;
+  background-color: #0f172a;
+  flex-direction: column;
+}
+
+.box {
+  width: 40vw;
+  height: 40vh;
+  box-shadow: 5px 5px 10px gray;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 6vh;
+  text-align: center;
+  color: white;
+}
+
+.parrapho {
+  font-family: 'Inter', sans-serif;
+  font-size: 3vh;
+  color: #cbd5e1;
+  text-align: center;
+}
+
+
+
+.button{
+    position: absolute;
+    bottom: -2vh;
+    left: 60%;
+    transform: translateX(-50%);
+    background-color: white;
+    color: #0f172a;
+    font-weight: bold;
+    box-shadow: 0 0 10px white;
+    width: 80px;
+    height: 40px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.button:hover{
+    position: absolute;
+    background-color: gray;
+    box-shadow: 5px 5px 10px gray;
+    width: 80px;
+    height: 40px;
+    bottom: -2vh;
+    right: 10vw;
+    border-radius: 8%;
+}
+
+.box {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 695px) { /*resolucion entre y 650px celular*/
+    
+  .box {
+  width: 60vw;
+  height: 40vh;
+  box-shadow: 5px 5px 10px gray;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4vh;
+  text-align: center;
+  color: white;
+}
+
+.parrapho {
+  font-family: 'Inter', sans-serif;
+  font-size: 2vh;
+  color: #cbd5e1;
+  text-align: center;
+}
+
+
+.button{
+    position: absolute;
+    bottom: -2vh;
+    left: 60%;
+    transform: translateX(-50%);
+    background-color: white;
+    color: #0f172a;
+    font-weight: bold;
+    box-shadow: 0 0 10px white;
+    width: 80px;
+    height: 40px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.button:hover{
+    position: absolute;
+    background-color: gray;
+    box-shadow: 5px 5px 10px gray;
+    width: 80px;
+    height: 40px;
+    bottom: -2vh;
+    right: 10vw;
+    border-radius: 8%;
+}
+
+
+}
