@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/Portafolio_SC/static/css/main.127d41d3.css",
-    "main.js": "/Portafolio_SC/static/js/main.5d1acae1.js",
+    "main.css": "/Portafolio_SC/static/css/main.b9483dc8.css",
+    "main.js": "/Portafolio_SC/static/js/main.5e171a28.js",
     "static/js/453.a5f373ae.chunk.js": "/Portafolio_SC/static/js/453.a5f373ae.chunk.js",
+    "static/media/DashBoard1.png": "/Portafolio_SC/static/media/DashBoard1.3fb283cffbb95407469d.png",
+    "static/media/analisis-crimen-india.png": "/Portafolio_SC/static/media/analisis-crimen-india.bdd3a82a7cb35d9239bd.png",
+    "static/media/DashBoard2.png": "/Portafolio_SC/static/media/DashBoard2.cffb63fa92f85467134d.png",
     "index.html": "/Portafolio_SC/index.html",
-    "main.127d41d3.css.map": "/Portafolio_SC/static/css/main.127d41d3.css.map",
-    "main.5d1acae1.js.map": "/Portafolio_SC/static/js/main.5d1acae1.js.map",
+    "main.b9483dc8.css.map": "/Portafolio_SC/static/css/main.b9483dc8.css.map",
+    "main.5e171a28.js.map": "/Portafolio_SC/static/js/main.5e171a28.js.map",
     "453.a5f373ae.chunk.js.map": "/Portafolio_SC/static/js/453.a5f373ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.127d41d3.css",
-    "static/js/main.5d1acae1.js"
+    "static/css/main.b9483dc8.css",
+    "static/js/main.5e171a28.js"
   ]
 }
