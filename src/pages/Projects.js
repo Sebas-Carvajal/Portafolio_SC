@@ -29,7 +29,7 @@ function Projects() {
                    que permiten filtrar dinámicamente por crimen, año o región.Este análisis facilita la 
                    comprensión de patrones delictivos y la identificación de tendencias por estado o tipo de delito.
                 </p>
-                <a href="#">Ver más</a>
+                <a href="https://sebas-carvajal.github.io/Portafolio_SC/src/Images/Análisis de Crímenes en la India (2001–2013).png">Ver más</a>
               </div>
               <div class="project-card">
                 <h3>Modelo de predicción</h3>
