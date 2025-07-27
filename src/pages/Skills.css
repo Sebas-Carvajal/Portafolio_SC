@@ -14,7 +14,7 @@ body{
   display: flex;
   flex-direction: row;
   justify-content:space-between;
-  padding-top: 1%;
+  padding-top: 8px;
   width: 40vw;
   height: 10px;
 }
@@ -65,22 +65,61 @@ body{
 
 @media screen and (min-width: 320px) and (max-width: 695px){
 
+.skills-section { /*este es el que agrupa todo*/
+  padding: 0 12vw 0 10vw;
+  color: #fff;
+  text-align: center;
+}
+
+.skills-section h1 {
+  font-size: 4vh;
+  text-align: start;
+  padding-left: 92px;
+  margin-bottom: 30px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.skill-item {
+  background-color: #112240;
+  border-radius: 12px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 0 15px gray;
+  text-align: left;
+}
+
+.skill-item h2 {
+  font-size: 2.5vh;
+  margin-bottom: 10px;
+  color: #ccd6f6;
+}
+
 .head{
-  width: 100vw;
+  width: 105vw;
   height: 40px;
   border-radius: 5%;
   background-color: #0A192F;
 }
 
+{/*desde aqui se modifica todo el head y list en general*/}
+
 .lista{
   display: flex;
   flex-direction: row;
   justify-content:space-between;
+  padding: 8px 4px 0 5px;
   width: 40vw;
   height: 15px;
 }
 
 .lista li{
-  padding: 0 25px 0 0;
+  padding: 0 22px 0 0;
 }
+
 }

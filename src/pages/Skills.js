@@ -8,6 +8,7 @@ function Skills() {
         <ul className="lista">
           <li><Link to="/" className="nav-link">Main</Link></li>
           <li><Link to="/About" className="nav-link">About</Link></li>
+          <li><Link to="/Skills" className="nav-link">Skill</Link></li>
           <li><Link to="/Contacts" className="nav-link">Contact</Link></li>
           <li><Link to="/Proyects" className="nav-link">Project</Link></li>
         </ul>
