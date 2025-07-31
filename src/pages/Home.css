@@ -33,7 +33,7 @@ h1 {
 
 .button{
     position: absolute;
-    bottom: 28vh;
+    bottom: -2vh;
     left: 60%;
     transform: translateX(-50%);
     background-color: white;
@@ -52,7 +52,7 @@ h1 {
     box-shadow: 5px 5px 10px gray;
     width: 80px;
     height: 40px;
-    bottom: 28vh;
+    bottom: -2vh;
     right: 10vw;
     border-radius: 8%;
 }
