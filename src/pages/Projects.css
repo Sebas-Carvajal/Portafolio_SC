@@ -19,7 +19,7 @@ body{
 }
 
 .projects-section {
-  padding: 5vh 10vw;
+  padding: 5vh 5vw;
   color: white;
   text-align: center;
 }
@@ -32,6 +32,7 @@ body{
 
 .project-category {
   margin-bottom: 60px;
+  /*opacity: 0; este es la clave para olcultar algo y animar al llegar*/
 }
 
 .project-category h2 {
@@ -54,7 +55,7 @@ body{
   background-color: #112240;
   padding: 20px;
   border-radius: 10px;
-  width: 300px;
+  width: 350px;
   box-shadow: 0 0 10px gray;
   text-align: left;
 }
@@ -66,7 +67,7 @@ body{
 }
 
 .project-card p {
-  font-size: 2vh;
+  font-size: 1.6vh;
   margin-bottom: 15px;
   text-align: justify;
 }

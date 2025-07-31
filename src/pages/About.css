@@ -24,24 +24,40 @@ h2{
   margin: 0;
 }
 
-
-.head{
-  width: 100vw;
-  height: 40px;
-  border-radius: 5%;
-  background-color: #0A192F;
-  box-shadow: 5px 5px 10px gray;
-
-}
-
-.lista{
+.head {
   display: flex;
-  flex-direction: row;
-  justify-content:space-between;
-  padding-top: 8px;
-  width: 40vw;
-  height: 15px;
+  width: 100vw;
+  height: 5vh;
+  background-color: #0A192F;
+  position: relative;
+  padding: 0.4vh;           
+  align-items: center;                     
 }
+
+.button_main {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.menu_img {
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.lista {
+  display: flex;
+  flex-direction: row; 
+  gap: 1px;
+  padding-bottom:20px;
+  list-style: none;
+}
+
 
 .presentation {
   display: flex;
@@ -122,8 +138,6 @@ h2{
 }
 
 
-
-
 @media screen and (min-width: 320px) and (max-width: 695px){
 
 h1{
@@ -153,18 +167,17 @@ h2{
   background-color: #0A192F;
 }
 
-.lista{
+
+/*desde aqui ya configure todo el css*/
+.lista {
   display: flex;
-  flex-direction: row;
-  justify-content:space-between;
-  width: 40vw;
-  height: 25px;
+  flex-direction: row; 
+  gap: 8px;
+  font-size:15px;
+  padding-bottom:20px;
+  list-style: none;
 }
 
-.lista li{
-  padding: 0 8px 0 0;
-  font-size: 16px;
-}
 
 .presentation {
   display: flex;

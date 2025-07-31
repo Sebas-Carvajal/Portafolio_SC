@@ -1,5 +1,6 @@
 import "./Projects.css"
 import {Link} from 'react-router-dom';
+import { useState } from "react";
 import DashBoard1 from "../Images/analisis-crimen-india.png";
 import DashBoard2 from "../Images/DashBoard1.png";
 import DashBoard3 from "../Images/DashBoard2.png";
@@ -9,16 +10,29 @@ import DashBoard3 from "../Images/DashBoard2.png";
 */
 
 function Projects() {
+
+const [showMenu, setShowMenu] = useState(false);
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
+
   return (
     <div > 
       <nav className="head">
-        <ul className="lista">
-          <li><Link to="/" className="nav-link">Main</Link></li>
-          <li><Link to="/About" className="nav-link">About</Link></li>
-          <li><Link to="/Skills" className="nav-link">Skill</Link></li>
-          <li><Link to="/Contacts" className="nav-link">Contact</Link></li>
-          <li><Link to="/Proyects" className="nav-link">Project</Link></li>
-        </ul>
+        <button className="button_main" onClick={toggleMenu}>
+          <img className="menu_img" src="./menu.png" alt="menu icon" />
+        </button>
+
+        {showMenu && (
+          <ul className="lista">
+            <Link to="/" className="nav-link">Main</Link>
+            <Link to="/About" className="nav-link">About</Link>
+            <Link to="/Skills" className="nav-link">Skill</Link>
+            <Link to="/Contacts" className="nav-link">Contact</Link>
+            <Link to="/Proyects" className="nav-link">Project</Link>
+          </ul>
+        )}
       </nav>
 
       <section id="Projects" class="projects-section">
